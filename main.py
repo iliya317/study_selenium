@@ -6,9 +6,10 @@ import pandas as pd
 import numpy as np
 import re
 import datetime as dt
+from selenium.webdriver.common.by import By
+import time
 
 
 service = ChromeService(executable_path='C:\\Users\\Илья\\.wdm\\drivers\\chromedriver\\win32\\97.0.4692.71\\chromedriver.exe')
-from selenium.webdriver.common.by import By
 driver = webdriver.Chrome(service=service)
-import time
+
